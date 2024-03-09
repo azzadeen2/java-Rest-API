@@ -1,0 +1,12 @@
+
+external:
+  api:
+    exchange_rate:
+      uri: http://localhost:8081
+      token: "dummy-token"
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/currency_exchange_dev
+    username: odoo15
+    password: azzadeen
+  jpa.hibernate.ddl-auto: create
